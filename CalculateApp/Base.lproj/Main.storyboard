@@ -39,6 +39,9 @@
                                                         <color key="backgroundColor" red="0.74343588917525771" green="0.74343588917525771" blue="0.74343588917525771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="AC"/>
+                                                        <connections>
+                                                            <action selector="tapClearBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hax-gn-FP7"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4G-66-3Nb">
                                                         <rect key="frame" x="278.5" y="0.0" width="87.5" height="88"/>
@@ -48,6 +51,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="÷"/>
+                                                        <connections>
+                                                            <action selector="tapDivideBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4l5-wj-nY0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -62,6 +68,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="7"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KTI-G2-y9Y"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lcj-sa-cEr">
                                                         <rect key="frame" x="93" y="0.0" width="87.5" height="87.5"/>
@@ -71,6 +80,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="8"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wua-It-Pcs"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCg-Li-a4p">
                                                         <rect key="frame" x="185.5" y="0.0" width="88" height="87.5"/>
@@ -80,6 +92,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="9"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2rq-pI-N7a"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5Y-8j-0ov">
                                                         <rect key="frame" x="278.5" y="0.0" width="87.5" height="87.5"/>
@@ -89,6 +104,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="X"/>
+                                                        <connections>
+                                                            <action selector="tapGopBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hX2-zw-ic5"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -103,6 +121,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="4"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BZl-II-kqS"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qu-hx-f62">
                                                         <rect key="frame" x="93" y="0.0" width="87.5" height="88"/>
@@ -112,6 +133,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="5"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lRY-Pb-6qY"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZ7-RD-UTf">
                                                         <rect key="frame" x="185.5" y="0.0" width="88" height="88"/>
@@ -121,6 +145,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="6"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ExM-si-hyD"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCD-He-iv4">
                                                         <rect key="frame" x="278.5" y="0.0" width="87.5" height="88"/>
@@ -130,6 +157,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="-"/>
+                                                        <connections>
+                                                            <action selector="tapMinusBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tgf-HT-1lR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -144,6 +174,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OF1-8O-8pu"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jZt-Xn-Ohg">
                                                         <rect key="frame" x="93" y="0.0" width="87.5" height="87.5"/>
@@ -153,6 +186,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="2"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gGt-e8-jN3"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKH-mt-8hh">
                                                         <rect key="frame" x="185.5" y="0.0" width="88" height="87.5"/>
@@ -162,6 +198,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="3"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="crs-ko-bBL"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBb-Ma-1BB">
                                                         <rect key="frame" x="278.5" y="0.0" width="87.5" height="87.5"/>
@@ -171,6 +210,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="+"/>
+                                                        <connections>
+                                                            <action selector="tapPlusBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MpC-RR-HA0"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -181,7 +223,10 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="88" height="88"/>
                                                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="1"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="0"/>
+                                                        <connections>
+                                                            <action selector="tapNumberBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3rk-XF-GB9"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDT-Ra-YHs">
                                                         <rect key="frame" x="139" y="0.0" width="88" height="88"/>
@@ -191,6 +236,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="."/>
+                                                        <connections>
+                                                            <action selector="tapDotBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MiM-4J-6B8"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ah8-g9-UHH">
                                                         <rect key="frame" x="278.5" y="0.0" width="87.5" height="88"/>
@@ -200,6 +248,9 @@
                                                         </constraints>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="="/>
+                                                        <connections>
+                                                            <action selector="tapResultBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iP-3F-IIe"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -235,6 +286,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ljt-NB-fps" secondAttribute="trailing" constant="24" id="yab-AB-j98"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberOutputLabel" destination="ljt-NB-fps" id="uhn-WZ-Iqf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
