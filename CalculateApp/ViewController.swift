@@ -30,7 +30,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     @IBAction func tapNumberBtn(_ sender: UIButton) {
-        
+        guard let numberValue = sender.title(for: .normal) else { return }
+        if self.displayNumber.count < 9 {
+            self.displayNumber += numberValue
+            self.numberOutputLabel.text = self.displayNumber
+        }
     }
     @IBAction func tapClearBtn(_ sender: UIButton) {
         
